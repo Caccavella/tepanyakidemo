@@ -1,0 +1,77 @@
+.sushimenucontainer {
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(to bottom right, #ffffe0, #cd853f);
+}
+
+.menuitems {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.section {
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+}
+h4 {
+    font-size: 20px;
+    padding: 12px;
+}
+h5 {
+    font-size: 15px;
+    padding: 5px;
+}
+h6 {
+    font-size: 12px;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
+.contactwrapper{
+    margin-bottom: 5vh;
+    background-image: radial-gradient(to bottom right, #ffffe0, #cd853f);
+    
+}
+.contacttitle {
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.section {
+    margin-top: 10px;
+    width: 95vw;
+    margin-left: 2.5vw;
+}
+.section h5{
+    line-height: 1.25;
+}
+.sectiontitle{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.line{
+    padding-bottom: 4px;
+}
+
+@media(min-width: 600px) {
+    h2{
+        font-size: 25px;
+        padding: 10px;
+        width: 25vw;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .contacttitle {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+.backgroundwrapper {
+  /* background: url('./Chopping_Board.jpg'); */
+  /* background: lightgrey; */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.name-logo {
+  font-size: 25px;
+  width: 60%;
+  position: absolute;
+  padding-top: 30px;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Shadows Into Light', cursive;
+  /* font-family: 'Kaushan Script', cursive; */
+}
+
+.tophead {
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+  background: #2B2828;
+  color: whitesmoke;
+  justify-content: space-between;
+}
+
+.menuicon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  right: 0;
+  margin: 10px 10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 9px;
+}
+
+.smallnav {
+  display: flex;
+  flex-direction: column;
+  background: salmon;
+  right: 0;
+  margin-top: 10vh;
+  font-size: 18px;
+  position: absolute;
+  margin-right: 9px;
+  z-index: 1000;
+}
+.smalllink {
+  padding: 7px 7px 7px 7px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.navigation {
+  position: absolute;
+  right: 0;
+  padding: 25px 20px;
+  display: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+}
+
+.main {
+  color: darkslategray;
+}
+
+.foot {
+  height: 5vh;
+  width: 100%;
+  background: whitesmoke;
+  position: fixed;
+  bottom: 0;
+  color: black;
+  padding-top: 10px;
+}
+.foot h4 {
+  transform: translateY(-10px);
+}
+
+@media(min-width: 700px){
+  .name-logo {
+    font-size: 48px;
+    width: 50%;
+    position: absolute;
+    padding-top: 10px;
+  }
+
+}
+
+@media(min-width:900px){
+  .navigation {
+    display: inline-flex;
+  }
+  .menuicon {
+    display: none;
+  }
+}

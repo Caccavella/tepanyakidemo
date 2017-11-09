@@ -1,0 +1,78 @@
+.locationswrapper{
+    padding-top: 10px;
+    background-image: radial-gradient(to bottom right, #ffffe0, #cd853f);
+    
+}
+.locationsectioncontainer h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.info {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.locationsection{
+    padding-top: 20px;
+    /* box-shadow: 0px 0px 8px rgba(0,0,0,.9); */
+}
+.locationimage {
+    height: 250px;
+    width: 80vw;
+    background: url('./lehi.PNG') center center ;
+    margin-left: 10vw; 
+    box-shadow: 0px 0px 8px rgba(0,0,0,.9);   
+}
+.locationimage2 {
+    height: 250px;
+    width: 80vw;
+    background: url('./westjordan.PNG') center center ;
+    margin-left: 10vw;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.9);    
+}
+.locationimage3 {
+    height: 250px;
+    width: 80vw;
+    background: url('./clearfield.PNG') center center ;
+    margin-left: 10vw;
+    margin-bottom: 40px;    
+    box-shadow: 0px 0px 8px rgba(0,0,0,.9);
+}
+.bottom{
+    margin-bottom: 10px;
+}
+
+
+@media(min-width: 1180px){
+    .locationsection{
+        height: 200px;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .locationsectioncontainer{
+        padding-top: 50px;
+    }
+    .locationimage{
+        height: 190px;
+        width: 600px;
+        position: absolute;
+        right: 0;
+        transform: translateY(-50%);
+        margin-right: 5vw;
+    }
+.locationimage2 {
+        height: 190px;
+        width: 600px;
+        position: absolute;       
+        right: 0;
+        transform: translateY(-50%);
+        margin-right: 5vw;
+    }
+.locationimage3 {
+        height: 190px;
+        width: 600px;
+        position: absolute;      
+        right: 0;
+        transform: translateY(-52%);
+        margin-right: 5vw;
+    }
+}

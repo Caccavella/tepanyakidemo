@@ -1,0 +1,26 @@
+
+.home {
+    background: url('../../Chopping_Board.jpg');
+    height: 90vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.message {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    margin-bottom: 110px;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    width: 90%;
+}
+
+@media(min-width: 500px) {
+    .message {
+    font-size: 100px;
+    
+    }
+}

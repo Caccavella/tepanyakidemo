@@ -1,0 +1,32 @@
+.hibachimenu {
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    background-image: radial-gradient(to bottom right, #ffffe0, #cd853f);
+}
+
+.menucontainer {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+h5 {
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+.desserts {
+    padding-bottom: 50px;
+}
